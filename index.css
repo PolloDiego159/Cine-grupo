@@ -1,0 +1,61 @@
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+#main-nav{
+    display: flex;
+    background-color: #000035;
+    justify-content: flex-end;
+}
+
+.ul-nav {
+    display: flex;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.li-items-nav {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+}
+
+.li-items-nav > a{
+    color: rgb(240, 248, 255);
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.li-items-nav > a:hover{
+    color: rgb(136, 187, 230);
+    text-decoration: none;
+}
+
+.li-items-nav > a > i{
+    color: rgb(240, 248, 255);
+    margin-right: 5px;
+}
+
+
+.logo-nav {
+    height: 50px;
+    width: 50px;
+}
+
+.container-mid {
+    background-image: url("fondo");
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+}
+
+.tittle-mid {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    text-shadow: 2px 6px 4px #000000;
+    color:rgb(240, 248, 255);
+    font-size: 50px;
+}
+
+
